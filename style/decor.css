@@ -1,0 +1,69 @@
+body{
+    width: 100vw;
+    /*background-image: url("../images/decor/fond.jpg");
+    background-size: 100vw;*/
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+.fond{
+    position: absolute;
+    width: 100vw;
+    z-index: -998;
+}
+
+#base-background {
+    z-index: -999;
+}
+
+#ile {
+    z-index: -997;
+}
+
+#gorille{
+    z-index: -998;
+    top: -12vw;
+    left: -2vw;
+}
+
+#fish {
+    z-index: -999;
+    top: -38vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Affichage-test */
+.test{
+    position: absolute;
+    margin-top: 5000px;
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+}

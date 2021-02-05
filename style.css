@@ -1,0 +1,588 @@
+/*------------------------------ NAV ------------------------------*/
+
+section#nav-container {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    align-items: center;
+
+    z-index: 999;
+}
+
+#logo-title {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+#nav-bar {
+    margin: 0 auto;
+}
+
+#logo-title p {
+    font-family: Poppins, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1.22;
+    text-align: left;
+    color: #095c60;
+    margin: auto 20px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: 0.07em;
+    color: #085c61;
+    margin: auto 20px;
+}
+
+#nav-bar button {
+    background-color: #ffa88c;
+    color: #653b25;
+    padding: 10px 20px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.87;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+/*---------------------------- HOME ------------------------------*/
+#home {
+    margin-top: 7vw;
+    font-family: Montserrat, sans-serif;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#home-text {
+    margin: 0 0 0 auto;
+    color: #095c60;
+    text-align: left;
+
+}
+
+#date {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 0.42;
+    letter-spacing: 7px;
+    transform: translateY(-30px);
+}
+
+#place {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 0.5;
+    letter-spacing: 3px;
+}
+
+#home img {
+    margin: 0 auto 0 0;
+
+}
+
+
+#home img {
+    width: 60vw;
+
+}
+
+#follow-us {
+    position: absolute;
+    left: 75vw;
+    top: 45vw;
+}
+
+#follow-us p {
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 0.5;
+    letter-spacing: 3px;
+    color: #707070;
+    margin-bottom: 25px;
+}
+
+#logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*---------------------------- PROGRAMME --------------------------*/
+
+section#programme {
+    position: relative;
+    width: 100vw;
+    top: 63vw;
+}
+
+#title-container {
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+#title-container img {
+    object-fit: scale-down;
+    margin-left: 2.5vw;
+}
+
+#whats-new {
+    width: 40vw;
+    height: 23vw;
+}
+
+.kikk-2020 {
+    width: 12vw;
+    left: 3vw;
+    top: 1vw;
+
+}
+
+/*---------------------------- KIKK.X --------------------------*/
+.kikk-x {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 11vw;
+
+}
+
+#kikk-pro {
+    margin-top: 20px;
+}
+
+#kikk-design {
+    flex-direction: row-reverse;
+    margin-top: 10vw;
+}
+
+.kikk-x > img {
+    width: 27vw;
+    height: 35vw;
+    margin: auto 0 auto auto;
+    object-fit: cover;
+}
+
+#kikk-design > img, #nicky > img {
+    margin: auto auto auto 0;
+}
+
+.kikk-x-texts {
+    margin: auto;
+    width: 23vw;
+}
+
+.kikk-x-texts > h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #ffffff;
+}
+
+.kikk-date {
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 3px;
+    color: #35aca4;
+    margin-top: 15px;
+}
+
+.kikk-x-divider {
+    margin: 30px 0;
+    width: 27px;
+    height: 1px;
+    background-image: linear-gradient(to right, #071323 4%, #1a3747 29%, #329f97 65%, #35aca4 96%);
+    transform: translateX(-13px);
+}
+
+.kikk-x-lorem {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    line-height: 2.33;
+    color: #627492;
+    margin-bottom: 60px;
+}
+
+.more-details {
+    width: 10vw;
+    transform: translateX(-60px);
+}
+/*---------------------------- TIMETABLE --------------------------*/
+
+#the-program {
+    display: flex;
+    flex-direction: column;
+    width: 92vw;
+    height: 46vw;
+}
+
+#the-program > img {
+    position: absolute;
+    width: 100vw;
+    left: -6vw;
+}
+
+#the-program-elements-container {
+    margin: 17vw 0 0 12vw;
+    z-index: 999;
+    width: 75vw;
+}
+
+#the-program h1 {
+    font-family: PlayfairDisplay, sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #0c2240;
+
+}
+
+.the-programme-texts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 87vw;
+    padding-right: 5vw;
+    justify-content: space-between;
+}
+
+#the-programme-divider {
+    width: 130px;
+    height: 4px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.01) 1%, rgba(255, 255, 255, 0.1) 20%, rgba(255, 254, 254, 0.29) 30%, rgba(255, 254, 254, 0.64) 75%, #fffdfd 97%);
+}
+
+.the-programme-p {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    line-height: 1.63;
+    color: #ffffff;
+    width: 30vw;
+
+}
+
+.see-the-full {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.56;
+    color: #0c2240;
+    margin: 13px 0;
+}
+
+#brush-blue {
+    width: 15vw;
+}
+
+/*---------------------------- INTERVENANTS --------------------------*/
+.inter {
+    margin-top: 10vw;
+}
+
+#nicky {
+    flex-direction: row-reverse;
+}
+
+.intervenant-name {
+    width: 28vw;
+    height: 21vw;
+    transform: translateX(-18vw);
+}
+
+#full-program-container  {
+    width: 27.6vw;
+    height: 19.2vw;
+    text-align: center;
+    background-image: url("images/brush/pink.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 999;
+    left: 40vw;
+    margin-left: 35vw ;
+
+}
+
+#full-program-container > p {
+    padding-top: 15.6vw;
+    padding-left: 5vw;
+}
+
+/*----------------------------------- ABOUT -----------------------------------*/
+#about {
+    margin-top: 11vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* LEFT */
+#about-left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    padding-left: 12vw;
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+}
+
+.twit {
+    display: flex;
+    flex-direction: row;
+    object-fit: scale-down;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    color: #b9bec9;
+    margin-bottom: 34px;
+}
+
+.twit > img {
+    margin-right: 30px;
+    height: 15px;
+    width: 19px;
+}
+
+.twit-text {
+    width: 25vw;
+    font-family: 'Castoro', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.76;
+    color: #ffffff;
+}
+
+.link {
+    color: #fcaa8b;
+}
+
+#about-divider {
+    width: 30vw;
+    height: 2px;
+    background-color: #707070;
+    border: solid 1px #707070;
+    margin: 5vw 0;
+}
+
+
+
+
+/* RIGHT */
+#about-right {
+    width: 50vw;
+    background-color: #fff;
+    padding-top: 5.5vw;
+    padding-left: 5vw;
+}
+
+#about-right > h1 {
+    width: 27vw;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #0b223f;
+}
+
+#about-right > p {
+    width: 36vw;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 2.5;
+    color: #808183;
+    margin-top: 3vw;
+}
+
+#about-right form {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#for-email label {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.53;
+    color: #0e233f;
+}
+
+#for-email input {
+    width: 23.5vw;
+    border: none;
+    border-bottom: solid 2px #707070;
+}
+
+/*------------------------------- #KIKK20 -----------------------------------*/
+
+#kikk20-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14vw;
+    margin-bottom: 10vw;
+}
+
+#kikk20 {
+    font-family: Playfair Display, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.33;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+#insta {
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    color: #dea197;
+    margin-top: 10px;
+}
+
+/*------------------------------- FOOTER -----------------------------------*/
+#footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#row-image {
+    display: flex;
+    flex-direction: row;
+}
+
+#row-image img {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.row-logo {
+    padding: 0 10vw;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 15vw;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-logo img {
+    margin: 0 auto;
+}
+
+.row-info {
+    display: flex;
+    flex-direction: row;
+    background-color: #07223f;
+    height: 17.5vw;
+}
+
+#row-info-left, #row-info-right {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#fonded, #et, #asbl, #contact{
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    color: #afb0b1;
+}
+
+#row-info-left img {
+    object-fit: cover;
+    width: 5vw;
+    height: 6vw;
+}
+
+#dogstudio {
+    font-family: Poppins, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 0.65;
+    color: #e5edf8;
+}
+
+#asbl {
+    font-weight: 500;
+}
+
+/*FISH LIGHT*/
+
+
+
+#fish-container {
+    height: 6000px;
+    width: 100vw;
+    position: absolute;
+    display: flex;
+}
+
+.light-fish {
+    display: flex;
+    position: absolute;
+    height: 2vw;
+    width: 2vw;
+}
+
+.light-fish img {
+    object-fit: scale-down;
+    height: 2vw;
+    width: 2vw;
+}
+
+.la-arrow-right {
+    font-size: 16px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

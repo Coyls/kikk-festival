@@ -1,0 +1,29 @@
+/* FIRST WRAPPER */
+
+#first-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 40px;
+    background-color: #fff;
+    align-items: center;
+
+    z-index: 999;
+}
+
+#first-wrapper p {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #0c5f65;
+    line-height: 1.5;
+    margin: 0 auto;
+
+}
+
+#first-wrapper p span {
+    color: #ffa88c;
+
+}
+
